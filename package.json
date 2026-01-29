@@ -1,0 +1,27 @@
+{
+  "name": "fb-auto-poster",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run --config vitest.config.ts",
+    "lint": "tsc -p tsconfig.json --noEmit",
+    "build:userscript": "esbuild userscript/src/index.ts --bundle --format=iife --outfile=userscript/dist/fb-auto-poster.user.js",
+    "build:all": "npm run lint && npm run test && npm run build && npm run build:userscript"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.2.1",
+    "esbuild": "^0.20.2",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.0",
+    "vitest": "^1.6.0"
+  }
+}
