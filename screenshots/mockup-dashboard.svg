@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <rect width="1200" height="750" fill="#f5f7fb" />
+  <rect x="40" y="30" width="1120" height="80" rx="16" fill="#ffffff" stroke="#e2e8f0" />
+  <text x="70" y="80" font-family="Inter, sans-serif" font-size="28" fill="#0f172a">FB Auto Poster</text>
+  <rect x="40" y="140" width="1120" height="560" rx="24" fill="#ffffff" stroke="#e2e8f0" />
+  <rect x="70" y="190" width="320" height="200" rx="16" fill="#eff6ff" />
+  <rect x="420" y="190" width="320" height="200" rx="16" fill="#f8fafc" />
+  <rect x="770" y="190" width="320" height="200" rx="16" fill="#f1f5f9" />
+  <rect x="70" y="420" width="1020" height="240" rx="16" fill="#f8fafc" />
+  <text x="80" y="180" font-family="Inter, sans-serif" font-size="18" fill="#64748b">Account Manager</text>
+  <text x="430" y="180" font-family="Inter, sans-serif" font-size="18" fill="#64748b">Post Composer</text>
+  <text x="780" y="180" font-family="Inter, sans-serif" font-size="18" fill="#64748b">Queue Monitor</text>
+  <text x="80" y="410" font-family="Inter, sans-serif" font-size="18" fill="#64748b">Analytics</text>
+</svg>
